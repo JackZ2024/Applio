@@ -22,3 +22,5 @@ rvc/models
 env
 venv
 .venv
+frp-local
+run-applio-sudo.sh

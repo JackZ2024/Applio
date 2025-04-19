@@ -23,8 +23,8 @@ i18n = I18nAuto()
 
 gradio_temp_dir = os.path.join(tempfile.gettempdir(), "gradio")
 
-if os.path.exists(gradio_temp_dir):
-    shutil.rmtree(gradio_temp_dir)
+# if os.path.exists(gradio_temp_dir):
+  #  shutil.rmtree(gradio_temp_dir)
 
 
 def save_drop_model(dropbox):

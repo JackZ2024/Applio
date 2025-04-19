@@ -330,7 +330,7 @@ class VoiceConverter:
                     **kwargs,
                 )
 
-            sf.write(audio_output_path, audio_opt, self.tgt_sr, format="WAV")
+            sf.write(audio_output_path, audio_opt, self.tgt_sr, 'PCM_24', format="WAV")
             output_path_format = audio_output_path.replace(
                 ".wav", f".{export_format.lower()}"
             )
